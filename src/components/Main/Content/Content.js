@@ -9,6 +9,18 @@ import CPhoto4 from "../../../img-content/covers-first-row/cover4.png"
 import CPhoto5 from "../../../img-content/covers-first-row/cover5.png"
 import CPhoto6 from "../../../img-content/covers-first-row/cover6.png"
 
+import CPhoto7 from "../../../img-content/covers-second-row/cover1.png"
+import CPhoto8 from "../../../img-content/covers-second-row/cover2.png"
+import CPhoto9 from "../../../img-content/covers-second-row/cover3.png"
+
+import CPhoto10 from "../../../img-content/covers-third-row/cover1.png"
+import CPhoto11 from "../../../img-content/covers-third-row/cover2.png"
+import CPhoto12 from "../../../img-content/covers-third-row/cover3.png"
+import CPhoto13 from "../../../img-content/covers-third-row/cover4.png"
+import CPhoto14 from "../../../img-content/covers-third-row/cover5.png"
+import CPhoto15 from "../../../img-content/covers-third-row/cover6.png"
+
+
 function Content() {
   return (
     <div className='content'>
@@ -85,7 +97,34 @@ function Content() {
           </figure>
           <section className='content-header-btns'></section>
         </section>
-        <section className='content-row-content'></section>
+        <section className='content-row-content'>
+          <figure className='content-row-content-item'>
+            <img src={CPhoto7} alt='ch1' className='cphoto7'></img>
+            <figcaption className='content-timing'>3:40</figcaption>
+            <figcaption className='content-figcaption '>Dude You Re Getting A Telescope</figcaption>
+            <figcaption className='content-figcaption-stats'>
+              <p>34k views&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;5 months ago</p>
+              <p>Gussie French</p>
+            </figcaption>
+          </figure>
+          <figure className='content-row-content-item'>
+            <img src={CPhoto8} alt='ch1' className='cphoto8'></img>
+            <figcaption className='content-timing'>2:12</figcaption>
+            <figcaption className='content-figcaption '>Moon Gazing</figcaption>
+            <figcaption className='content-figcaption-stats'>
+              <p>54k views&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;11 months ago</p>
+              <p>Dollie Blair</p>Edward Osborne
+            </figcaption>
+          </figure>
+          <figure className='content-row-content-item'>
+            <img src={CPhoto9} alt='ch1' className='cphoto9'></img>
+            <figcaption className='content-timing'>2:12</figcaption>
+            <figcaption className='content-figcaption '>Moon Gazing</figcaption>
+            <figcaption className='content-figcaption-stats'>
+              <p>125k views&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;4 months ago</p>
+              <p>Dollie Blair</p>
+            </figcaption>
+          </figure></section>
 
       </section>
       <section className='content-third-row'>
@@ -96,7 +135,62 @@ function Content() {
           </figure>
           <section className='content-header-btns'></section>
         </section>
-        <section className='content-row-content'></section>
+        <section className='content-row-content'>
+        <figure className='content-row-content-item'>
+            <img src={CPhoto10} alt='ch10' className='cphoto10'></img>
+            <figcaption className='content-timing'>7:36</figcaption>
+            <figcaption className='content-figcaption '>Astronomy Or Astrology</figcaption>
+            <figcaption className='content-figcaption-stats'>
+              <p>240k views &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;4 months ago</p>
+              <p>Food & Drink</p>
+            </figcaption>
+          </figure>
+          <figure className='content-row-content-item'>
+            <img src={CPhoto11} alt='ch11' className='cphoto1'></img>
+            <figcaption className='content-timing'>2:19</figcaption>
+            <figcaption className='content-figcaption '>Advertising Outdoors</figcaption>
+            <figcaption className='content-figcaption-stats'>
+              <p>13k views &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;15 days ago</p>
+              <p>Food & Drink</p>
+            </figcaption>
+          </figure>
+          <figure className='content-row-content-item'>
+            <img src={CPhoto12} alt='ch12' className='cphoto12'></img>
+            <figcaption className='content-timing'>9:05</figcaption>
+            <figcaption className='content-figcaption '>Radio Astronomy</figcaption>
+            <figcaption className='content-figcaption-stats'>
+              <p>1k views&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;11 months ago</p>
+              <p>Food & Drink</p>
+            </figcaption>
+          </figure>
+          <figure className='content-row-content-item'>
+            <img src={CPhoto13} alt='ch13' className='cphoto43'></img>
+            <figcaption className='content-timing'>3:40</figcaption>
+            <figcaption className='content-figcaption '>A Good Autoresponder</figcaption>
+            <figcaption className='content-figcaption-stats'>
+              <p>45k views&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;2 months ago</p>
+              <p>Food & Drink</p>
+            </figcaption>
+          </figure>
+          <figure className='content-row-content-item'>
+            <img src={CPhoto14} alt='ch14' className='cphoto14'></img>
+            <figcaption className='content-timing'>1:56</figcaption>
+            <figcaption className='content-figcaption '>Baby Monitor Technology</figcaption>
+            <figcaption className='content-figcaption-stats'>
+              <p>86k views&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;7 days ago</p>
+              <p>Food & Drink</p>
+            </figcaption>
+          </figure>
+          <figure className='content-row-content-item'>
+            <img src={CPhoto15} alt='ch15' className='cphoto15'></img>
+            <figcaption className='content-timing'>4:15</figcaption>
+            <figcaption className='content-figcaption '>Asteroids</figcaption>
+            <figcaption className='content-figcaption-stats'>
+              <p>123k views&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;4 months ago</p>
+              <p>Food & Drink</p>
+            </figcaption>
+          </figure>
+        </section>
       </section>
     </div>
   )
