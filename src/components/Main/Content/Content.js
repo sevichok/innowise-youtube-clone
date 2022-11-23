@@ -20,6 +20,8 @@ import CPhoto13 from "../../../img-content/covers-third-row/cover4.png"
 import CPhoto14 from "../../../img-content/covers-third-row/cover5.png"
 import CPhoto15 from "../../../img-content/covers-third-row/cover6.png"
 
+import LArrow from "../../../img-content/LeftArrow.svg"
+import RArrow from "../../../img-content/RightArrow.svg"
 
 function Content() {
   return (
@@ -30,7 +32,15 @@ function Content() {
             <img src={HPhoto1} alt='ch1'></img>
             <figcaption>Dollie Blair</figcaption>
           </figure>
-          <section className='content-header-btns'></section>
+
+          <section className='content-header-btns'>
+            <figure className='arrow'>
+              <img src={LArrow} alt='arr1' className='arr1'></img>
+            </figure>
+            <figure className='arrow'>
+              <img src={RArrow} alt='arr2' className='arr2'></img>
+            </figure>
+          </section>
         </section>
 
         <section className='content-row-content'>
@@ -95,7 +105,18 @@ function Content() {
           <figure className='content-row-desc'>
             <figcaption>Recommended</figcaption>
           </figure>
-          <section className='content-header-btns'></section>
+
+
+          <section className='content-header-btns'>
+            <figure className='arrow'>
+              <img src={LArrow} alt='arr1' className='arr1'></img>
+            </figure>
+            <figure className='arrow'>
+              <img src={RArrow} alt='arr2' className='arr2'></img>
+            </figure>
+          </section>
+
+
         </section>
         <section className='content-row-content'>
           <figure className='content-row-content-item'>
@@ -132,11 +153,24 @@ function Content() {
           <figure className='content-row-desc'>
             <img src={HPhoto2} alt='ch2'></img>
             <figcaption>Food & Drink</figcaption>
+            <figcaption className='content-row-desc-rec'>
+              Recommended channel for you
+            </figcaption>
           </figure>
-          <section className='content-header-btns'></section>
+          <section className='content-sub-button'>
+            <button className='sub-button'>Subscribe 2.3m</button>
+          </section>
+          <section className='content-header-btns'>
+            <figure className='arrow'>
+              <img src={LArrow} alt='arr1' className='arr1'></img>
+            </figure>
+            <figure className='arrow'>
+              <img src={RArrow} alt='arr2' className='arr2'></img>
+            </figure>
+          </section>
         </section>
         <section className='content-row-content'>
-        <figure className='content-row-content-item'>
+          <figure className='content-row-content-item'>
             <img src={CPhoto10} alt='ch10' className='cphoto10'></img>
             <figcaption className='content-timing'>7:36</figcaption>
             <figcaption className='content-figcaption '>Astronomy Or Astrology</figcaption>
