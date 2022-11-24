@@ -1,4 +1,6 @@
 import React from 'react'
+import "../../styles/header.css"
+
 import YTLogo from "../../img-content/svg/yt.svg"
 import SearchLogo from "../../img-content/svg/search.svg"
 

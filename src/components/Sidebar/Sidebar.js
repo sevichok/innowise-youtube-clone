@@ -1,6 +1,7 @@
 import React from 'react'
 import Subscriptions from "./Subscriptions"
 import Menu from "./Menu"
+import "../../styles/sidebar.css"
 import SetIcon from "../../img-content/svg/icon12.svg"
 
 function Sidebar() {
