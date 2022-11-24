@@ -5,10 +5,14 @@ max-width: 1920px;
 margin: auto;
 background-color: rgba(255, 255, 255, 1);
 }
-
 .main {
   width: 100%;
   display: flex;
   padding-top: 28px;
   overflow: hidden;
 }
+/* @media screen and (max-width:320px) {
+  .main {
+    display: none;
+  }
+} */

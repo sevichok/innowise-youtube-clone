@@ -150,3 +150,27 @@
     font-size: 16px;
     line-height: 20.08px;
   }
+@media screen and (max-width:320px) {
+  .content-second-row, .content-third-row, .content-row-header {
+    display: none;
+  }
+  .content-row-content {
+  flex-direction: column;
+  padding: 3px 16px;
+  gap: 0;
+  margin-bottom: 60px;
+  }
+  .content-first-row .content-row-content-item img {
+  width: 288px;
+  }
+  .content-row-content-item:nth-child(2),
+  .content-row-content-item:nth-child(3){
+    padding-top: 17.4px;
+  }
+  .content-row-content-item:nth-child(4) {
+    padding-top: 16.6px;
+  }
+  .content-row-content-item:nth-child(n+5) {
+    display: none;
+  }
+}
