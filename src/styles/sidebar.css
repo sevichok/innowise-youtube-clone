@@ -3,6 +3,8 @@
     padding-left:31px;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    z-index: 4;
   }
   .sidebar-menu-item {
     display: flex;
@@ -135,7 +137,7 @@
     padding-left: 3px;
   }
 
-  @media screen and (max-width:320px) {
+  @media screen and (max-width:480px) {
     .sidebar {
       position: fixed;
       left: 0px;
